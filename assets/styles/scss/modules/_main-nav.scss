@@ -12,8 +12,11 @@ Start building the basic layout for lowest resoluton
 		@extend ul.reset;
 		display: none;
 		font-size: 0;
+
 	    li {
 		    @import "dropdown-nav";
+		    background: rgba($dark-grey, 0.5);
+
 		    ul {
 		    	padding-left: 2em;
 		    }  
@@ -28,7 +31,7 @@ Start building the basic layout for lowest resoluton
 			text-decoration: none;
 			display: block;	
 			line-height: 4.2em;
-			color: $grey;
+			color: $dark-white;
 			padding: 0 1em;
 			font-size: 1rem;
     	}

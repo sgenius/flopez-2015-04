@@ -7,21 +7,36 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>One Nexus</title>
-    <meta name="description" content="A mobile-first front end solution built in SASS.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Fernando Lopez. Front-end development that works.</title>
+    <meta name="description" content="Fernando Lopez is a front-end developer concerned in doing websites that work for you. Also does board games and other stuff.">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />--> <!-- user-scalable, why not? -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
     <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="320">
+    <meta name="MobileOptimized" content="320"> <!-- don't know how well this works... -->
 
     <!-- Icons & fFvicons -->
-    <link rel="apple-touch-icon" href="assets/images/apple-icon-touch.png">
-    <link rel="icon" href="assets/images/favicon.png">
     <!--[if IE]>
         <link rel="shortcut icon" href="assets/images/favicon.ico">
     <![endif]-->
 
+    <!-- from http://realfavicongenerator.net/ -->
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/apple-touch-icon-120x120.png">
+    <link rel="icon" type="image/png" href="assets/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="assets/images/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="assets/images/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="assets/manifest.json">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="theme-color" content="#ffffff">
+
+
+
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="assets/styles/css/app.css">
+    <link rel="stylesheet" href="css/app.css">
     <!-- Modernizr -->
     <script src="assets/js/modernizr.min.js"></script>
 </head>
@@ -34,28 +49,29 @@
             <div class="container">
                 <div class="header-wrapper">
                     <!-- Logo -->
-                    <div class="logo">
+                    <h1 class="logo">
                         <a href="/">
-                            <img src="assets/images/logo.png" alt="One Nexus" />
+                            <img src="assets/images/logo.png" alt="Fernando Lopez" />
                         </a>
-                    </div>
+                    </h1>
                     <!-- Main-Nav -->
                     <nav class="main-nav">
                         <ul>
                             <li>
-                                <a href="#">Header Link 1</a>
-                                <ul>
-                                    <li><a href="#">Link 1</a></li>
-                                    <li><a href="#">Link 2</a></li>
-                                    <li><a href="#">Link 3</a></li>
-                                </ul>
+                                <a href="index">This is me.</a>
                             </li>
-                            <li><a href="#">Header Link 2</a></li>
-                            <li><a href="#">Header Link 3</a></li>
+                            <li><a href="#">IT blog.</a></li>
+                            <li><a href="#">Map blog.</a></li>
+                            <li><a href="#">Board game.</a></li>
+                            <li><a href="#">@sgenius</a></li>
+                            <li><a href="#">Let's talk.</a></li>
                         </ul>
                     </nav>
                     <!-- Mobile Menu Trigger Button -->
                     <a class="nav-trigger max-bp3" href="#"></a>
+                </div>
+                <div class="pagename-wrapper">
+                    <h2>Front-end development focused on results.</h2>
                 </div>
             </div>
         </header>
@@ -66,14 +82,21 @@
             <!-- Breadcrumb -->
             <nav class="breadcrumb">
                 <ul>
-                    <li><a href="#">One Nexus</a></li>
+                    <li><a href="#">flopez</a></li>
                     <li><a href="index.html">Index</a></li>
                 </ul>
             </nav>
 
-            <div class="row">
+            <div class="row">            
                 <div class="span-12">
-                    <p>Welcome to your new copy of One Nexus. Be sure to read our <a href="http://www.onenexusproject.com/documentation/" target="blank">documentation</a> before you get started.</p>
+                    <h3>So. What is your deal?</h3>
+                    <p>My job as a front-end developer — and, in fact, that of everyone involved in a web site — is to help you get your message across</p>
+                    <ul>
+                        <li>in the most efficient way, </li>
+                        <li>to the right people, </li>
+                        <li>so that they get back to you in order to generate sales (or whatever your goal is).</li>
+                    </ul>
+                    <p>I don't just do websites that work. <em>I do websites that work for you.</em></p>
                 </div>
             </div>
 

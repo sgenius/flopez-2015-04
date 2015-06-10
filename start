@@ -4,7 +4,7 @@ HTTPPORT=8000
 # Exit the script if anything returns a non-zero value.
 set -e
 
-ls css/**/*.scss css/**/**/*.scss css/**/**/**/*.scss | ./watch - ./compilewatch &
+ls assets/styles/scss/*.scss assets/styles/scss/**/*.scss assets/styles/scss/**/**/*.scss assets/styles/scss/**/**/**/*.scss | ./watch - ./compilewatch &
 if [ "$?" -ne 0 ]; then  
 	echo "$(tput setaf 1)[start]$(tput sgr0) Watcher script for compass did not start or was not found."
 else
@@ -12,7 +12,7 @@ else
 fi
 
 
-./watch js/site.js uglifyjs js/site.js -c -m -o js/site.min.js &
+./watch assets/js/site.js uglifyjs assets/js/site.js -c -m -o assets/js/site.min.js &
 if [ "$?" -ne 0 ]; then  
 	echo "$(tput setaf 1)[start]$(tput sgr0) Watcher script for uglifyjs did not start or was not found."
 else

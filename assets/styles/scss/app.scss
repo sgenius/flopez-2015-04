@@ -41,6 +41,8 @@ Elements
 @import "elements/tabs";
 @import "elements/tooltips";
 
+@import "elements/image-headers";
+
 /******************************************************************
 Modules
 ******************************************************************/
@@ -53,3 +55,27 @@ Modules
 @import "modules/nav-trigger";
 @import "modules/off-canvas-nav";
 @import "modules/scroll-top";
+
+
+
+/******************************************************************
+General code 
+******************************************************************/
+
+// Image header
+.app-header {
+	background: #242424 url(../assets/images/ih-index-500.jpg) no-repeat top center;
+	// background-size: cover;
+}
+
+// Page name
+.pagename-wrapper {
+	padding: 2em 0;
+	h2 { 
+		display: inline-block;
+		color: $dark-white; 
+		padding: 0 25px 0 5px;
+		background: #000;
+		line-height: 1.2;
+	}
+}
